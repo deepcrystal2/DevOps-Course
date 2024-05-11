@@ -1,0 +1,42 @@
+1. 구분
+    1) SaaS     데이터          Google Docs
+                웹서비스
+                웹 오피스        
+
+
+    2) PaaS     개발 프레임워크 App Engine
+                미들웨어        MS, Azure
+                OS              K-PaaS
+    
+    3) IaaS     Server          AWS         서비스형 인프라스트럭처
+                Strorage        GCP         물리적 리소스를 가상화해 
+                Network         MS Azure    유연한 Infrastructure 제공
+    
+2. 가상화
+    - Hypervisor
+        - OS 환경 전체를 가상화 함
+
+            애플리케이션 애플리케이션
+                    OS
+                    Hypervisor
+                    하드웨어
+
+    - Container
+        - 하나의 호스트 OS에서 멀티 OS 환경을 구현함
+
+            애플리케이션    애플리케이션
+                실행환경        실행환경
+                컨테이너 관리 SW
+                    호스트 OS
+                    하드웨어
+
+3. Cloud 산업 동향
+    1) 클라우드 시스템 인프라 서비스 (IaaS)
+        - $ 1,954 억
+    2) SaaS 
+        - $ 2,322 억
+    3) PaaS
+        - $ 1,703 억
+    4) 기술 중심 '클라우드 네이티브 개발자' 로 전환
+
+
